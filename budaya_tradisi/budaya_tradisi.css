@@ -1,0 +1,182 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+header {
+  background-color: #1fbaff;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.logo img {
+  max-height: 40px;
+  width: auto;
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li {
+  margin: 10px;
+}
+
+/* Link Styling */
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+nav ul li a.budaya_tradisi {
+  color: #ffba00;
+}
+
+nav ul li a:hover {
+  color: #ffba00;
+}
+
+nav ul li a.btn {
+  background-color: #0056a6;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+nav ul li a.btn:hover {
+  background-color: #ea4f4f;
+  transform: scale(1.05);
+}
+
+.hero {
+  color: white;
+  display: flex; /* Flexbox untuk memusatkan konten */
+  justify-content: center; /* Pusatkan konten secara horizontal */
+  align-items: center; /* Pusatkan konten secara vertikal */
+  height: 100vh; /* Tinggi 100% viewport */
+  width: 100%; /* Lebar penuh */
+  text-align: center; /* Pusatkan teks */
+  background: 
+  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), /* Overlay gelap */
+  url('/images/Budaya Background 1.png') no-repeat center center/cover; /* Gambar background */
+  background-size: cover; /* Pastikan gambar memenuhi area */
+  background-position: center; /* Pusatkan gambar */
+  background-repeat: no-repeat; /* Hindari pengulangan gambar */
+  box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
+}
+
+.budayaTradisi {
+  text-align: center;
+  padding-top: 50px;
+  background: linear-gradient(#FFFFFE,#FFD666);
+  box-shadow: 0px -20px 20px -10px rgba(255, 255, 255, 0.7);
+}
+
+.budayaTradisi h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.budayaTradisi h3 {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+/* footer */
+
+.footer {
+  background-color: #009FE3;
+  color: white;
+  padding: 20px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-logo img {
+  width: 80px;
+  margin: 50px 0px 0px 50px;
+}
+
+.footer-section {
+  margin: 10px;
+}
+
+.footer-section h3 {
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 5px;
+}
+
+.footer-section ul li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+  color: #FFD700; /* Warna hover */
+}
+
+.social-icons a img {
+
+  margin-right: 10px;
+  transition: transform 0.3s;
+}
+
+.social-icons a img:hover {
+  transform: scale(1.1);
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+  color: #f0f0f0;
+}
+
+.social-media a:hover {
+  color: #ffcc00;
+}

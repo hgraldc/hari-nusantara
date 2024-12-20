@@ -1,0 +1,157 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+header {
+  background-color: #1fbaff;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.logo img {
+  max-height: 40px;
+  width: auto;
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li {
+  margin: 10px;
+}
+
+/* Link Styling */
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+nav ul li a.galeri {
+  color: #ffba00;
+}
+
+nav ul li a:hover {
+  color: #ffba00;
+}
+
+nav ul li a.btn {
+  background-color: #0056a6;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+nav ul li a.btn:hover {
+  background-color: #ea4f4f;
+  transform: scale(1.05);
+}
+
+/* Hero Section */
+.hero {
+  display: flex; /* Flexbox untuk memusatkan konten */
+  justify-content: center; /* Pusatkan konten secara horizontal */
+  align-items: center; /* Pusatkan konten secara vertikal */
+  height: 100vh; /* Tinggi 100% viewport */
+  width: 100%; /* Lebar penuh */
+  text-align: center; /* Pusatkan teks */
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    /* Overlay gelap */ url("/images/Sikuai Island, Padang 1.png") no-repeat,
+    center center/cover; /* Gambar background */
+  background-size: cover; /* Pastikan gambar memenuhi area */
+  background-position: center; /* Pusatkan gambar */
+  background-repeat: no-repeat; /* Hindari pengulangan gambar */
+}
+
+/* Header */
+.galeri {
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  color: #333;
+  text-align: center;
+}
+
+.container {
+  margin-bottom: 30px;
+  margin-top: 70px;
+}
+.container h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.container p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Container */
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  flex-wrap: wrap;
+  margin-top: 70px;
+}
+
+/* Card */
+.card {
+  background-color: #fff;
+  width: 250px;
+  height: 350px;
+  border-radius: 15px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 30px;
+  position: relative;
+}
+
+/* Tombol */
+.btn {
+  background-color: #479eff;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #287dcf;
+  transform: scale(1.05);
+}
